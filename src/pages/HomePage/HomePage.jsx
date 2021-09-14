@@ -9,7 +9,7 @@ export default function HomePage(){
         <>
             <h2>delanovation</h2>
             <p>
-            (coming soon!)
+            Right now I'm just experimenting here. 
             </p>
             Experimenting with Collage
             <Collage />
