@@ -9,7 +9,7 @@ export default function HomePage(){
         <>
             <h2>delanovation</h2>
             <p>
-            Right now I'm just experimenting here. CHANGE TEXT!
+            Right now I'm just experimenting here!
             </p>
             Experimenting with Collage
             <Collage />
