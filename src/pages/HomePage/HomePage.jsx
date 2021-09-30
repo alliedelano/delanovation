@@ -1,22 +1,23 @@
 import React from 'react';
-import CarouselComp from '../../components/Carousel/Carousel'
-import Collage from '../../components/Collage/Collage'
+import Header from '../../components/Header/Header'
+import PostItMenu from '../../components/PostItMenu/PostItMenu'
+import './HomePage.css'
 
 
 
 export default function HomePage(){
     return(
         <>
-            <h2>delanovation</h2>
-            <p>
-            Right now I'm just experimenting here!
-            </p>
-            Experimenting with Collage
-            <Collage />
-            <br />
-            Experimenting with Carousel
-            <CarouselComp />
-            
+            <div className="home-page">
+                <Header />
+                <br />
+                <div className="menu">
+                    <PostItMenu />
+                    <PostItMenu />
+                    <PostItMenu />
+                    <PostItMenu />
+                </div>
+            </div>
         </>
     )
 }

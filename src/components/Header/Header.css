@@ -1,0 +1,12 @@
+.headerdiv {
+    background-color: #20A4F3;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
